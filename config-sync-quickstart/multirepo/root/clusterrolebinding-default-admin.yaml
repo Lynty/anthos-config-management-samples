@@ -1,8 +1,12 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: gateway-cluster-admin-group
+  name: zbanana
 subjects:
+- kind: User
+  name: 1banana@google.com
+- kind: User
+  name: 2banana@google.com
 - kind: User
   name: lynnux@google.com
 roleRef:
