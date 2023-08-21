@@ -4,12 +4,14 @@ metadata:
   name: zbanana
 subjects:
 - kind: User
-  name: 1banana@google.com
-- kind: User
-  name: 2banana@google.com
-- kind: User
   name: lynnux@google.com
 roleRef:
   kind: ClusterRole
   name: cluster-admin
   apiGroup: rbac.authorization.k8s.io
+  #- kind: User
+  #  name: 1banana@google.com
+  #- kind: User
+  #  name: 2banana@google.com
+  #- kind: User
+  #  name: 3banana@google.com
