@@ -16,4 +16,4 @@ spec:
   parameters:
     # restrictedNamespaces <array>: A list of Namespaces to restrict.
     restrictedNamespaces:
-      #- gamestore
+      - monitoring
